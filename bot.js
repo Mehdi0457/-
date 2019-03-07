@@ -320,7 +320,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;[
-    var setGame = ['In 596 Usr','*help | *bc',[ " ${client.guilds.size} " ],'By:Mehdi.!Øps |'," ${client.users.size} ";]
+    var setGame = ['In 596 Usr','*help | *bc',In Server 3,'By:Mehdi.!Øps |',channels! 21;]
     var i = -1;
     var j = 0;
     setInterval(function (){
