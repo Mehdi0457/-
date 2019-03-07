@@ -316,29 +316,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 });
 
 
-
-
-client.on('ready', function(){
-var ms = 10000 ;[
-var setGame = ['In 596 User','*help | *bc','In 3 Server','By: Mehdi.!OPS','21 Channels']
-	var i = -1;
-var j = 0;
-    setInterval(function (){
-        if( i == -1 ){
-            j = 1;
-        }
-        if( i == (setGame.length)-1 ){
-            j = -1;
-        }
-        i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/D.JPEI`);
-    }, ms);
-
-});
-
-
-
-					client.on('message', message => {
+client.on('message', message => {
           let args = message.content.split(' ').slice(1);
    if(message.content.split(' ')[0] == '*setcolor'){
            const embedd = new Discord.RichEmbed()
