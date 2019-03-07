@@ -320,7 +320,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 
 client.on('ready', function(){
 var ms = 10000 ;[
-var setGame = ['In 596 Usr','*help | *bc',In Server 3,'By:Mehdi.!Øps |',channels! 21'];
+var setGame = ['In 596 User','*help | *bc','In 3 Server','By: Mehdi.!OPS','21 Channels']
 var i = -1;
 var j = 0;
     setInterval(function (){
@@ -2150,7 +2150,7 @@ message.channel.send(`**${message.author.username}, your :credit_card: balance i
 });
  
 client.on('message', async message => {
-    let amount = 500;//هنا شوف كم تبي كريديت لما تسوي دايلي
+    let amount = 5000;//هنا شوف كم تبي كريديت لما تسوي دايلي
     if(message.content.startsWith(prefix + "daily")) {
     if(message.author.bot) return;
     if(coolDown.has(message.author.id)) return message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes in \`\`1 Day\`\`.**`);//هنا مدة تحديث الكريديت
