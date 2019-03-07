@@ -321,7 +321,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 client.on('ready', function(){
 var ms = 10000 ;[
 var setGame = ['In 596 User','*help | *bc','In 3 Server','By: Mehdi.!OPS','21 Channels']
-var i = -1;
+	var i = -1;
 var j = 0;
     setInterval(function (){
         if( i == -1 ){
