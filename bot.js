@@ -319,8 +319,8 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 
 
 client.on('ready', function(){
-    var ms = 10000 ;
-    var setGame = ['In 596 Usr','*help | *bc','${client.guilds.size','By:Mehdi.!Øps |','${client.users.size}'];
+    var ms = 10000 ;[
+    var setGame = ['In 596 Usr','*help | *bc',[ " ${client.guilds.size} " ],'By:Mehdi.!Øps |'," ${client.users.size} ";
     var i = -1;
     var j = 0;
     setInterval(function (){
